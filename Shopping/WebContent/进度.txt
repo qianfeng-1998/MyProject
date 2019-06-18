@@ -1,0 +1,46 @@
+注册登录页面已完成
+
+bulletin.jsp完成
+
+showbulletinList.jsp完成
+
+index.jsp完成
+
+
+
+products.jsp完成
+
+可在购物车页面点击  进入结算中心   进入peisong.jsp页面
+
+	“购物车最简单的方式为，数据库建表” 优点：购物车可永久保存  || “使用Map对象”  缺点：两个账户登录，后面登录的也能看到前面一个的购物车内容
+	使用：    数据库建表：详情见DB.txt
+
+confirm.jsp页面是订单确认页面
+
+
+
+
+
+
+
+
+
+后台访问网址：
+http://localhost/Shopping/AdminStart
+http://localhost/Shopping/admin/jsp/login.jsp
+
+前台访问网址：
+http://localhost/Shopping/reception/index.jsp
+http://localhost/Shopping/reception/login_register.jsp
+
+
+------------------后台获得知识点------------------
+GetCustomerPageDao的ResultSet
+	1：一个方法中如果有一个结果集，调用了其他方法，该方法中存在结果集，使用rs.next()方法，如果两个方法中的引用一样，则判断的是调用方法中的ResultSet
+	2：如果一个方法中，调用了其他方法且该方法关闭了con和psmt和rs，则该方法不能正确执行，因为此方法中
+	
+	
+------------------前台页面已全部完成--------------------
+
+
+------------------后台页面已全部完成--------------------
